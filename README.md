@@ -2,7 +2,7 @@
 
 A Python-based chess engine implementation featuring a graphical user interface and AI opponent using the Minimax algorithm with Alpha-Beta pruning.
 
-![Chess Game Screenshot](Images/screenshot.png)
+![Chess Game Screenshot](Images/chess-new.png)
 
 ## Table of Contents
 - [Features](#features)
