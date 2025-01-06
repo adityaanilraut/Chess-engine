@@ -85,14 +85,13 @@ chess-engine/
 ### Running the Game
 1. Navigate to the project directory
 2. Run the game:
-```bash
-python chess_game_ui.py
-```
+[![Watch on YouTube](https://img.youtube.com/vi/tKpnjuQkn8M/0.jpg)](https://www.youtube.com/watch?v=tKpnjuQkn8M)
+
 
 ### Playing the Game
 1. You play as White, AI plays as Black
 2. Click a piece to select it
-   - Valid moves will be highlighted in blue
+   - Valid moves will be highlighted in green
 3. Click a highlighted square to make your move
 4. The AI will automatically respond after your move
 5. Use the "New Game" button to start over
