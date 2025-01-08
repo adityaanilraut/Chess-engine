@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chess Game vs AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="board-container">
+            <div class="board" id="chessboard"></div>
+            <div class="controls">
+                <div class="turn-indicator" id="turnIndicator">Turn: White</div>
+                <button onclick="newGame()">New Game</button>
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/chess.js') }}"></script>
+</body>
+</html>
