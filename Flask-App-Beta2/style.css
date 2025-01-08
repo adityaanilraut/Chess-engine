@@ -1,0 +1,81 @@
+/* static/css/style.css */
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+.board-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(8, 150px);
+    grid-template-rows: repeat(8, 150px);
+    border: 2px solid #333;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.light {
+    background-color: #F0D9B5;
+}
+
+.dark {
+    background-color: #B58863;
+}
+
+.selected {
+    background-color: #646D40;
+}
+
+.valid-move {
+    background-color: #AAB648;
+}
+
+.controls {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.turn-indicator {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+
+  button {
+    background-color: #653909; /* Green background */
+    color: white; /* White text */
+    padding: 10px 200px; /* Padding for size */
+    font-size: 25px; /* Larger font size */
+    border: none; /* Remove border */
+    border-radius: 15px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth effects */
+  }
+
+  button:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+    transform: translateY(-2px); /* Subtle lift effect */
+  }
+  .square:hover {
+    /*background-color: #45a049; /* Slightly darker green on hover */
+    transform: translateY(-2px); /* Subtle lift effect */
+  }
+
+  button:active {
+    background-color: #3e8e41; /* Even darker green on click */
+    transform: translateY(0); /* Reset lift effect */
+  }
