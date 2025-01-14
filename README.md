@@ -1,13 +1,12 @@
 # Chess Engine with Minimax AI
 
 A Python-based chess engine implementation featuring a graphical user interface and AI opponent using the Minimax algorithm with Alpha-Beta pruning.
-Live Demo: [Chess Game](https://chess-app-aditya-9fe69273beb5.herokuapp.com/)
+Live Demo: [Chess Game](https://hostproject1.onrender.com/)
 
 ## ⚠️ Important Notice About Live Demo
 
-**Session Management Notice**: Due to the current deployment setup, multiple users accessing the game simultaneously might experience session conflicts, where you might see moves from other players' games. This is a known issue in the live demo only.
-
-**Quick Fix**: If you notice moves you didn't make or irregular behavior, simply refresh your browser page to get back your old session.
+**Session Management Notice**: Due to the current deployment setup, multiple users accessing the game simultaneously might experience session conflicts, where you might see moves from other players' games. This is a known issue in the live demo only. - ✅ This issue was fixed
+**Quick Fix**: If you notice moves you didn't make or irregular behavior, simply refresh your browser page to get back your old session.  - ✅ This issue was fixed
 
 **Note**: This issue only affects the live demo. The application runs normally when deployed locally.
 
