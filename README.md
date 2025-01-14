@@ -5,8 +5,13 @@ Live Demo: [Chess Game](https://hostproject1.onrender.com/)
 
 ## ⚠️ Important Notice About Live Demo
 
-**Session Management Notice**: Due to the current deployment setup, multiple users accessing the game simultaneously might experience session conflicts, where you might see moves from other players' games. This is a known issue in the live demo only. - ✅ This issue was fixed
-**Quick Fix**: If you notice moves you didn't make or irregular behavior, simply refresh your browser page to get back your old session.  - ✅ This issue was fixed
+**Session Management Notice**: Due to the current deployment setup, multiple users accessing the game simultaneously might experience session conflicts, where you might see moves from other players' games. This is a known issue in the live demo only. 
+
+- ✅ This issue was fixed
+
+**Quick Fix**: If you notice moves you didn't make or irregular behavior, simply refresh your browser page to get back your old session.  
+
+- ✅ This issue was fixed
 
 **Note**: This issue only affects the live demo. The application runs normally when deployed locally.
 
