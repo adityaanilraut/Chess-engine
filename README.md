@@ -3,6 +3,8 @@
 A Python-based chess engine implementation featuring a graphical user interface and AI opponent using the Minimax algorithm with Alpha-Beta pruning.
 Live Demo: [Chess Game](https://hostproject1.onrender.com/)
 
+Give the demo 2 minutes to load, Please wait
+
 ## ⚠️ Important Notice About Live Demo
 
 **Session Management Notice**: Due to the current deployment setup, multiple users accessing the game simultaneously might experience session conflicts, where you might see moves from other players' games. This is a known issue in the live demo only. 
